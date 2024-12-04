@@ -1,7 +1,7 @@
 # Portfolio Description
 
 ## Fields of Expertise
-Machine Learning - Quantitative Finance (Quant) - Quantum Information Science
+Machine Learning - Quantitative Finance (Quant) - Quantum Information Science - Optimization
 
 ## Overview
 
@@ -14,7 +14,10 @@ Projects focusing on various machine learning techniques, including supervised a
 Work in this area involves financial modeling, asset allocation, risk management, and algorithmic trading. By leveraging machine learning and statistical methods, I provide insights and strategies for financial markets and investment portfolios.
 
 ### Quantum Information Science
-Explorations into the realm of quantum computing, quantum information theory and quantum control theory. This includes simulations of quantum algorithms, quantum cryptography, and studies on quantum entanglement and coherence.
+Explorations into the realm of quantum computing, quantum information theory, and quantum control theory. This includes simulations of quantum algorithms, quantum cryptography, and studies on quantum entanglement and coherence.
+
+### Optimization
+Projects in numerical optimization and operations research, solving complex decision-making problems. Applications include linear programming, nonlinear optimization, and combinatorial problems in various industries such as logistics, finance, and engineering.
 
 ## Projects
 
@@ -33,6 +36,13 @@ A project to predict housing prices based on various features using linear regre
 ### [Retail Customer Segmentation](./retail_dashboard)
 A comprehensive project focused on customer segmentation for a retail dataset using the Northwind database. By leveraging RFM (Recency-Frequency-Monetary) variables and scores, this project implements K-Means clustering to segment customers into different clusters. The segmented data is used to gain insights into customer behavior and preferences. SQL queries are used to extract and preprocess the data from the database.
 
+### [Optimization](./optimization)
+Projects focused on optimization techniques. This section includes a variety of applications, such as:
+- Linear programming and transportation problems.
+- Nonlinear optimization for engineering designs.
+- Combinatorial optimization for scheduling and network flow.
+- Inventory management and supply chain optimization.
+
 ### [Blockchain](./blockchain)
 Investigating blockchain technology and its applications, including smart contracts, cryptographic security, and decentralized applications.
 
@@ -44,4 +54,3 @@ Projects on the control of quantum systems, focusing on the application of contr
 
 ## Contact
 Feel free to explore the projects and delve into the code and documentation. For any inquiries, please reach out to me via [rodrigokang88@gmail.com](mailto:rodrigokang88@gmail.com) or connect with me on [LinkedIn](http://www.linkedin.com/in/rodrigojuankang).
-
