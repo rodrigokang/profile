@@ -13,11 +13,11 @@ Projects focusing on various machine learning techniques, including supervised a
 ### Quantitative Finance
 Work in this area involves financial modeling, asset allocation, risk management, and algorithmic trading. By leveraging machine learning and statistical methods, I provide insights and strategies for financial markets and investment portfolios.
 
-### Quantum Information Science
-Explorations into the realm of quantum computing, quantum information theory, and quantum control theory. This includes simulations of quantum algorithms, quantum cryptography, and studies on quantum entanglement and coherence.
-
 ### Optimization
 Projects in numerical optimization and operations research, solving complex decision-making problems. Applications include linear programming, nonlinear optimization, and combinatorial problems in various industries such as logistics, finance, and engineering.
+
+### Quantum Information Science
+Explorations into the realm of quantum computing, quantum information theory, and quantum control theory. This includes simulations of quantum algorithms, quantum cryptography, and studies on quantum entanglement and coherence.
 
 ## Projects
 
