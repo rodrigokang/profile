@@ -42,8 +42,5 @@ Developing machine learning models to detect fraudulent transactions, enhancing 
 ### [Quantum Control Theory](./quantum_control_theory)
 Projects on the control of quantum systems, focusing on the application of control theory to quantum computing and quantum information processing.
 
-### [Labs](./labs)
-This directory is dedicated to lecture notes, tutorials, and solved problems across multiple domains, including Machine Learning, Probability and Statistics, Numerical Analysis, Quantum Mechanics and Quantitative Finance. It serves as a comprehensive collection of resources designed to enhance understanding and provide practical examples for key concepts in these fields. Whether you are looking to deepen your knowledge or solve specific problems, this directory offers a range of valuable learning materials, including theoretical explanations, code implementations, and problem-solving techniques.
-
 ## Contact
 Feel free to explore the projects and delve into the code and documentation. For any inquiries, please reach out to me via [rodrigokang88@gmail.com](mailto:rodrigokang88@gmail.com) or connect with me on [LinkedIn](http://www.linkedin.com/in/rodrigojuankang).
