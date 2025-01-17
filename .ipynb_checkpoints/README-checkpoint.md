@@ -43,7 +43,7 @@ Developing machine learning models to detect fraudulent transactions, enhancing 
 Projects on the control of quantum systems, focusing on the application of control theory to quantum computing and quantum information processing.
 
 ### [Labs](./labs)
-This directory is dedicated to exploring and solving problems in probability and statistics, numerical analysis, and computational physics. Each problem is approached using Python, R, and C++, demonstrating a versatile skill set in programming and analytical problem-solving across these diverse fields. It serves as a comprehensive collection of solved problems, designed to deepen understanding and provide practical examples of key concepts, making it a valuable resource for learning and application.
+This directory is dedicated to exploring and solving problems in probability and statistics, numerical analysis, computational physics and quantitative finance. Each problem is approached using Python, R, and C++, demonstrating a versatile skill set in programming and analytical problem-solving across these diverse fields. It serves as a comprehensive collection of solved problems, designed to deepen understanding and provide practical examples of key concepts, making it a valuable resource for learning and application.
 
 ## Contact
 Feel free to explore the projects and delve into the code and documentation. For any inquiries, please reach out to me via [rodrigokang88@gmail.com](mailto:rodrigokang88@gmail.com) or connect with me on [LinkedIn](http://www.linkedin.com/in/rodrigojuankang).
