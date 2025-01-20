@@ -1,4 +1,3 @@
-
 # Creation of the probability table
 # =================================
 
