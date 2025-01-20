@@ -1,3 +1,4 @@
+# =================================
 # Creation of the probability table
 # =================================
 
@@ -12,6 +13,7 @@ prob_table <- t(sapply(m, p))
 min_people <- prob_table[prob_table[, "p"] > 0.5, "M"][1]
 cat("Minimum number of people for P > 0.5:", min_people, "\n")
 
+# =================================
 # Plotting the probability curve
 # ==============================
 
