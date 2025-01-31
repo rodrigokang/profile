@@ -37,7 +37,7 @@ A comprehensive project focused on customer segmentation for a retail dataset us
 Investigating blockchain technology and its applications, including smart contracts, cryptographic security, and decentralized applications.
 
 ### [Churn Prediction](./churn)  
-Developing machine learning models to predict customer churn in non-contractual relationships within the retail market using an **RFM-based approach**. The project explores various algorithms, including logistic regression, Random Forest, and XGBoost, to benchmark performance and enhance predictive accuracy.  
+Developing machine learning models to predict customer churn in non-contractual relationships within the retail market using an **RFM-based approach**. The project explores various algorithms, including Logistic Regression, Random Forest, and XGBoost, to benchmark performance and enhance predictive accuracy.  
 
 ### [Quantum Control Theory](./quantum_control_theory)
 Projects on the control of quantum systems, focusing on the application of control theory to quantum computing and quantum information processing.
