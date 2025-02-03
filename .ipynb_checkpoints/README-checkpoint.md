@@ -36,9 +36,6 @@ Investigating blockchain technology and its applications, including smart contra
 ### [Churn Prediction](./churn)  
 Developing machine learning models to predict customer churn in non-contractual relationships within the retail market using an **RFM-based approach**. The project explores various algorithms, including Logistic Regression, Random Forest, XGBoost, and Neural Networks, to benchmark performance and enhance predictive accuracy. 
 
-### [Quantum Control Theory](./quantum_control_theory)
-Projects on the control of quantum systems, focusing on the application of control theory to quantum computing and quantum information processing.
-
 ### [Labs](./labs)
 This directory is dedicated to exploring and solving problems in probability and statistics, numerical analysis, computational physics and quantitative finance. Each problem is approached using Python, R, and C++, demonstrating a versatile skill set in programming and analytical problem-solving across these diverse fields. It serves as a comprehensive collection of solved problems, designed to deepen understanding and provide practical examples of key concepts, making it a valuable resource for learning and application.
 
