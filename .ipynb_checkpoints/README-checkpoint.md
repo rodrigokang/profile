@@ -15,22 +15,22 @@ This portfolio is organized by field of expertise to better reflect the breadth 
 
 ## 🧾 Project Structure
 
-### 🔢 [**quantitative_finance**](./quantitative_finance)
+### 🔢 [**Quantitative Finance**](./quantitative_finance)
 Projects in this section focus on the application of statistical and machine learning methods to financial problems. Topics include asset allocation, financial derivatives pricing, risk management, and quantitative strategies for investment.
 
 ---
 
-### ⚛️ [**quantum_computing**](./quantum_computing)
+### ⚛️ [**Quantum Information Science**](./quantum_computing)
 This section covers projects in quantum computation and information, with a focus on **adiabatic quantum computing** and **quantum control theory**. The goal is to explore the interface between physics, control systems, and quantum technologies, applying both simulation and theoretical tools.
 
 ---
 
-### 🤖 [**machine_learning**](./machine_learning)
+### 🤖 [**Machine Learning**](./machine_learning)
 Projects here center on supervised and unsupervised machine learning, statistical modeling, feature engineering, and model interpretability, applied to real-world datasets.
 
 ---
 
-### 🧪 [**labs**](./labs)
+### 🧪 [**Labs**](./labs)
 This is a sandbox for experimentation and learning, with diverse notebooks covering:
 
 - Probability & Statistics  
