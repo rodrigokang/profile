@@ -1,4 +1,4 @@
-# 💼 Rodrigo Kang – Portfolio
+# 💼 Portfolio
 
 ## 🧭 Fields of Expertise
 **Machine Learning** · **Quantitative Finance (Quant)** · **Quantum Information Science** · **Optimization**
