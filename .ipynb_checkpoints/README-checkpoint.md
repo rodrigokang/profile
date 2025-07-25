@@ -36,8 +36,7 @@ This is a sandbox for experimentation and learning, with diverse notebooks cover
 - Probability & Statistics  
 - Numerical Methods
 - Statistical Learning
-- Quantum Computing
-- Computational Physics  
+- Quantum Computing 
 - Quantitative Finance
 
 Each lab presents a complete and self-contained problem-solving notebook, often including theory, implementation, and visualization.
