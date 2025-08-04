@@ -31,7 +31,7 @@ If you're interested in a deeper understanding of many core topics covered throu
 - Advanced Topics and Appendices
 
 📂 Source and full content available here:  
-🔗 [**Book: Data Science for Quantitative Finance**](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
+🔗 [https://github.com/rodrigokang/data-science-quant-finance-book](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
 
 This project is part of my commitment to open education and knowledge sharing.
 
