@@ -37,7 +37,7 @@ This project is part of my commitment to open education and knowledge sharing.
 
 ---
 
-## 🧾 Project Structure
+## 🧾 Portfolio Structure
 
 ### 🔢 [**Quantitative Finance**](./quantitative_finance)
 Projects in this section focus on the application of statistical and machine learning methods to financial problems. Topics include asset allocation, financial derivatives pricing, risk management, and quantitative strategies for investment.
