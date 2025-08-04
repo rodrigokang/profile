@@ -33,8 +33,6 @@ If you're interested in a deeper understanding of many core topics covered throu
 📂 Source and full content available here:  
 🔗 [https://github.com/rodrigokang/data-science-quant-finance-book](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
 
-This project is part of my commitment to open education and knowledge sharing.
-
 ---
 
 ## 🧾 Portfolio Structure
