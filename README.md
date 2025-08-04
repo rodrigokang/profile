@@ -15,7 +15,7 @@ This portfolio is organized by field of expertise to better reflect the breadth 
 
 ## 📘 Deepen Your Knowledge
 
-If you're interested in a deeper understanding of many core topics covered throughout this portfolio (including **Python programming**, **probability and statistics**, **numerical algorithms**, **machine learning**, and **quantitative finance**) I invite you to explore the book I’m currently writing:
+If you're interested in a deeper understanding of many core topics covered throughout this portfolio (including **Python programming**, **Probability & Statistics**, **Numerical Algorithms**, **Machine Learning**, and **Quantitative Finance**) I invite you to explore the book I’m currently writing:
 
 **_Data Science for Quantitative Finance: Theory, Methods, and Applications in Financial Markets_**
 
