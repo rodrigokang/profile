@@ -30,19 +30,6 @@ Projects here center on supervised and unsupervised machine learning, statistica
 
 ---
 
-### 🧪 [**Labs**](./labs)
-This is a sandbox for experimentation and learning, with diverse notebooks covering:
-
-- Probability & Statistics  
-- Numerical Methods
-- Statistical Learning
-- Quantum Computing 
-- Quantitative Finance
-
-Each lab presents a complete and self-contained problem-solving notebook, often including theory, implementation, and visualization.
-
----
-
 ## 📬 Contact
 
 Feel free to explore the projects and dive into the code and documentation:
