@@ -13,7 +13,7 @@ This portfolio is organized by field of expertise to better reflect the breadth 
 
 ---
 
-## 📘 Deepen Your Knowledge — [**Book: Data Science for Quantitative Finance**](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
+## 📘 Deepen Your Knowledge
 
 If you're interested in a deeper understanding of many core topics covered throughout this portfolio — including **Python programming**, **probability and statistics**, **numerical algorithms**, **machine learning**, and **quantitative finance** — I invite you to explore the book I’m currently writing:
 
@@ -31,7 +31,7 @@ If you're interested in a deeper understanding of many core topics covered throu
 - Advanced Topics and Appendices
 
 📂 Source and full content available here:  
-🔗 [github.com/rodrigokang/data-science-quant-finance-book](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
+🔗 [**Book: Data Science for Quantitative Finance**](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
 
 This project is part of my commitment to open education and knowledge sharing.
 
