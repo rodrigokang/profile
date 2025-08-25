@@ -13,28 +13,6 @@ This portfolio is organized by field of expertise to better reflect the breadth 
 
 ---
 
-## 📘 Deepen Your Knowledge
-
-If you're interested in a deeper understanding of many core topics covered throughout this portfolio (including **Python programming**, **Probability & Statistics**, **Numerical Algorithms**, **Machine Learning**, and **Quantitative Finance**) I invite you to explore the book I’m currently writing:
-
-**_Data Science for Quantitative Finance: Theory, Methods, and Applications in Financial Markets_**
-
-📖 The book is written in [**Quarto**](https://quarto.org/) and includes chapters such as:
-
-- Programming Fundamentals in Python  
-- Linear Algebra  
-- Probability and Statistics  
-- Numerical Algorithms  
-- Statistical Learning  
-- Reinforcement Learning  
-- Quantitative Finance  
-- Advanced Topics and Appendices
-
-📂 Source and full content available here:  
-🔗 [https://github.com/rodrigokang/data-science-quant-finance-book](https://github.com/rodrigokang/data-science-quant-finance-book/tree/main)
-
----
-
 ## 🧾 Portfolio Structure
 
 ### 🔢 [**Quantitative Finance**](./quantitative_finance)
