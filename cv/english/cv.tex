@@ -1,0 +1,489 @@
+\documentclass[10pt, letterpaper]{article}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Packages
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\usepackage[
+    ignoreheadfoot,
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    footskip=1.0cm
+]{geometry}
+\usepackage[explicit]{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Rodrigo Kang},
+    pdfauthor={Rodrigo Kang},
+    pdfcreator={Rodrigo Kang},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Fonts and Encoding
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+\usepackage[default, type1]{sourcesanspro}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Page Setup
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Footer Setup: Three-part, small gray text
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\usepackage{datetime} % for dynamic date
+\newdateformat{monthyeardate}{\shortmonthname[\THEMONTH] \THEYEAR}
+
+\makeatletter
+\def\ps@customFooterStyle{%
+    \def\@oddfoot{%
+        \small\color{gray}%
+        \raisebox{-0.1cm}[0pt][0pt]{%
+            \makebox[\textwidth]{%
+                \makebox[0pt][l]{\uppercase{\monthyeardate\today}}% left
+                \makebox[\textwidth]{\hfill\uppercase{RODRIGO KANG \, $\cdot$ \, CURRICULUM VITAE}\hfill}% center
+                \makebox[0pt][r]{\uppercase{\thepage}}% right
+            }%
+        }%
+    }%
+    \def\@evenfoot{\@oddfoot}%
+    \def\@oddhead{}%
+    \def\@evenhead{}%
+}
+\makeatother
+
+\pagestyle{customFooterStyle}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Section Style
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\titleformat{\section}{
+    \needspace{4\baselineskip}
+    \Large\color{primaryColor}
+}{
+}{
+}{
+    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
+}[]
+
+\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Custom Environments
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10cm,
+        parsep=0.10cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0.2cm}{0.2cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{1cm, \fill, 4.5cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+}{
+    \par\kern\topsep
+}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Hyperlink Setup
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\let\hrefWithoutArrow\href
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Document
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\begin{document}
+
+\begin{header}
+    \fontsize{30pt}{30pt}\textbf{Rodrigo Kang}
+
+    \vspace{0.3cm}
+
+    \normalsize
+    \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Buenos Aires City}%
+    \kern 0.25cm | \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{mailto:rodrigokang88@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}rodrigokang88@gmail.com}}%
+    \kern 0.25cm | \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{http://www.linkedin.com/in/rodrigojuankang}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}rodrigojuankang}}%
+    \kern 0.25cm | \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{https://github.com/rodrigokang/profile}{{\footnotesize\faGithub}\hspace*{0.13cm}rodrigokang}}%
+\end{header}
+
+\vspace{0.3cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Sections
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\section{Work Experience}
+\begin{twocolentry}{\textcolor{gray}{\textit{Mar 2025 - Present}}}
+    \textbf{Lead Data Scientist}  \\ \textcolor{gray}{\textit{YPF Tecnología S.A. (Y-TEC)}}
+\end{twocolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Jan 2025 - Mar 2025}}}
+    \textbf{CRM Supervisor}  \\ \textcolor{gray}{\textit{Cencosud S.A.}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Leading the CRM team of Data Scientists and Data Analysts to enhance customer segmentation, churn prediction, and recommendation systems. Overseeing the development and deployment of machine learning models using Python, SQL, and AWS. Managing data-driven initiatives to improve customer engagement and business performance.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Jul 2023 - Dec 2024}}}
+    \textbf{Data Scientist}  \\ \textcolor{gray}{\textit{Cencosud S.A.}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Developed predictive models by combining complex SQL queries in AWS Redshift with machine learning algorithms in Python and AWS SageMaker to support informed decision-making in retail. Built recommendation systems, customer segmentation, and churn prediction models to provide actionable insights for business strategy.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Apr 2020 - Jul 2023}}}
+    \textbf{Gas Trading \& Operations Research Analyst}  \\ \textcolor{gray}{\textit{ECS S.A. - ENGIE GROUP}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Designed and implemented commercial strategies and discrete optimization algorithms using operations research techniques for the natural gas market. Developed scalable Python algorithms for profit margin optimization through linear programming and mathematical modeling with graph theory, taking into account contractual constraints.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Dec 2017 - Mar 2020}}}
+    \textbf{Programming \& Balancing Analyst}  \\ \textcolor{gray}{\textit{TGN S.A. - TECHINT GROUP}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Analyzed large volumes of daily data to authorize loader transportation within the TGN system, taking into account operational capacity and regulatory requirements. Prepared daily and monthly balance sheets. Monitored, determined, and controlled operational imbalances across all loaders.
+}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\section{Education}
+\begin{twocolentry}{\textcolor{gray}{\textit{Dec 2021}}}
+    \textbf{M.Sc. in Physics}  \\ \textcolor{gray}{\textit{Universidad Nacional de La Plata}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Graduated with a GPA of 8.40/10, specializing in Quantum Optimal Control Theory.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\section{Licenses \& Certifications}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Feb 2025}}}
+    \textbf{Microsoft Azure AI Fundamentals (AI-900)}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Introduction to AI concepts and Microsoft Azure AI services for practical applications.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Feb 2025}}}
+    \textbf{Introducción a Microsoft Azure para principiantes}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Basic overview of Microsoft Azure cloud services and core functionalities.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Feb 2025}}}
+    \textbf{Masterclass en Inteligencia Artificial}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Comprehensive training on AI concepts, techniques, and Python implementations.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Sep 2024}}}
+    \textbf{AWS SageMaker Practical for Beginners}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Hands-on experience deploying machine learning models with AWS SageMaker.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Sep 2024}}}
+    \textbf{Time Series Analysis in Python}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Techniques for analyzing, modeling, and forecasting time series data using Python.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{2024}}}
+    \textbf{Machine Learning Model Deployment with Streamlit}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Deploying machine learning models via interactive web applications using Streamlit.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{May 2024}}}
+    \textbf{Curso completo de Inteligencia Artificial con Python}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{End-to-end AI projects and Python-based implementations of machine learning algorithms.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Apr 2024}}}
+    \textbf{Curso completo de Machine Learning: Data Science en Python}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Comprehensive coverage of machine learning workflows, data preprocessing, and predictive modeling.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Apr 2024}}}
+    \textbf{Desarrollo web full Stack: Flask, PostgreSQL, JavaScript}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Full-stack web development with Flask, database integration, and frontend JavaScript.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Jan 2024}}}
+    \textbf{Aprende Git y GitHub: El control de versiones de la A a la Z}  \\ \textcolor{gray}{\textit{Udemy}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Version control, repository management, and collaborative development workflows using Git and GitHub.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Nov 2023}}}
+    \textbf{QUANt: Quantitative Finance}  \\ \textcolor{gray}{\textit{UCEMAx}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Quantitative finance techniques, financial modeling, and portfolio analysis.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Jul 2022}}}
+    \textbf{Computational Tools for Applied Mathematics}  \\ \textcolor{gray}{\textit{Universidad Nacional de La Plata}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Advanced computational methods and numerical techniques for applied mathematics problems.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Sep 2022}}}
+    \textbf{El Arte de Negociar}  \\ \textcolor{gray}{\textit{IAE Business School}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Negotiation strategies and techniques for business and professional settings.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Dec 2021}}}
+    \textbf{Probability and Statistics in Experimental Physics}  \\ \textcolor{gray}{\textit{Universidad Nacional de La Plata}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Statistical methods and probability theory applied to experimental physics.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\begin{twocolentry}{\textcolor{gray}{\textit{Nov 2018}}}
+    \textbf{Introduction to the Gas Industry}  \\ \textcolor{gray}{\textit{IAPG}}
+\end{twocolentry}
+
+\vspace{0.1cm}
+
+\begin{onecolentry}
+\textcolor{gray}{Overview of natural gas production, transportation, and market operations.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\section{Programming Languages}
+
+\begin{onecolentry}
+\faLinux \; \textbf{Linux} \\
+\textcolor{gray}{\textit{Bash scripting, system administration, and shell automation.}} 
+
+\vspace{0.2cm}
+
+\faPython \; \textbf{Python} \\
+\textcolor{gray}{\textit{NumPy, SciPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, PyTorch, TensorFlow, NetworkX, Flask.}}
+
+\vspace{0.2cm}
+
+\faDatabase \; \textbf{SQL} \\
+\textcolor{gray}{\textit{SQLite and PostgreSQL for database management and complex queries.}} 
+
+\vspace{0.2cm}
+
+\faAws \; \textbf{AWS} \\
+\textcolor{gray}{\textit{SageMaker, Redshift for cloud-based data processing and ML deployment.}} 
+
+\vspace{0.2cm}
+
+\faGithub \; \textbf{Git} \\
+\textcolor{gray}{\textit{Version control and collaborative development via GitHub.}} 
+
+\vspace{0.2cm}
+
+\textbf{Other Languages \& Tools} \\
+\textcolor{gray}{\textit{\LaTeX, R, C++, HTML5, CSS3.}}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+\section{Languages}
+
+\begin{onecolentry}
+\textbf{Spanish} \\
+\textcolor{gray}{\textit{Native proficiency.}} 
+
+\vspace{0.2cm}
+
+\textbf{English} \\
+\textcolor{gray}{\textit{Professional proficiency (C1).}} 
+\end{onecolentry}
+
+
+\end{document}

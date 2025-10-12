@@ -30,8 +30,8 @@ A collection of projects in data science and quantum information science, integr
 The portfolio includes applications in customer analytics, financial modeling, quantum simulations, and computational physics, bridging theoretical research with practical implementation.
 
 ### 📄 [Curriculum Vitae](./cv)
-Contains my CV.  
-This section summarizes my academic background, professional experience, and technical expertise in a clean, exportable format.
+This folder contains the LaTeX source code for my CV, which can be compiled with `pdflatex` to generate a PDF.  
+It summarizes my academic background, professional experience, and technical skills in a clean and professional format.
 
 ### 🌐 [Personal Website](./personal_website)
 The source code for my personal website built with Quarto, which integrates my portfolio, publications, and blog posts into a unified and dynamic space.  
