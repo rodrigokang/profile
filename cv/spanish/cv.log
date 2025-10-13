@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.11)  12 OCT 2025 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.11)  13 OCT 2025 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,41 +829,40 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/it' on input line 201.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
 (Font)              scaled to size 10.0pt on input line 201.
-
-
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 281.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 273.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 281.
+(Font)              scaled to size 9.0pt on input line 273.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-81.
+73.
+
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-81.
+73.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-281.
+273.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-281.
+273.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 281.
+(Font)              <9> on input line 273.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 281.
+(Font)              <6> on input line 273.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 281.
+(Font)              <5> on input line 273.
 
 [1
 
@@ -873,36 +872,33 @@ drigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}
 5free2.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/font
 awesome5/fa5free1.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc
 /dvips/fontawesome5/fa5brands0.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiK
-TeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+TeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [2]
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 452.
+n input line 470.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
- input line 457.
+ input line 475.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
 somebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 457.
-
-
-[2]
+n input line 475.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 462.
+nput line 480.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
 somefree0.fd)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 478.
+(Font)              <10> on input line 496.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 478.
+(Font)              <7> on input line 496.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 478.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 496.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 478.
+(Font)              scaled to size 7.0pt on input line 496.
 
 
 [3{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/
@@ -919,11 +915,11 @@ L3 programming layer <2025-09-02>
 Here is how much of TeX's memory you used:
  16886 strings out of 468129
  291924 string characters out of 5429643
- 722339 words of memory out of 5000000
+ 723339 words of memory out of 5000000
  45227 multiletter control sequences out of 15000+600000
  734780 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,1052b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,1052b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesom
 e5/FontAwesome5Brands-Regular.pfb><C:/Users/Rodrigo/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/Rodri
@@ -934,7 +930,7 @@ iKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb><C:/Users/Rodrigo/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regul
 ar.pfb><C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
 sy9.pfb>
-Output written on cv.pdf (3 pages, 255918 bytes).
+Output written on cv.pdf (3 pages, 257022 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
