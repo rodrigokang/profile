@@ -1,0 +1,14 @@
+---
+title: "Projects"
+---
+
+# 💼 Projects
+
+Below you’ll find a selection of my public projects — more available on [GitHub](https://github.com/rodrigokang).
+
+## Portfolio Projects
+
+- **Asset Allocation using PCA, Clustering, and Entropy Optimization**
+- **CRM with AI: Churn Prediction and Recommendation Systems**
+- **Quantum Path Integrals via Monte Carlo Simulation**
+- **Fraud Detection using Logistic Regression and Autoencoders**

@@ -1,0 +1,26 @@
+---
+title: "Welcome"
+---
+
+<div class="profile-container">
+
+<img src="images/profile.jpg" class="profile-pic" alt="Rodrigo Kang">
+
+<div class="profile-text">
+
+# 👋 Hi, I'm Rodrigo Kang
+
+I'm a **Data Scientist** at Cencosud S.A. and a **PhD researcher** passionate about **Machine Learning**, **Optimization**, and **Quantitative Finance**.
+
+This website showcases my **projects**, **academic research**, and **technical writing**.
+
+</div>
+</div>
+
+---
+
+## 📌 Highlights
+
+- 💡 Machine Learning projects: from customer analytics to quantitative finance  
+- 📊 Research interests: numerical methods, optimization, and applied statistics  
+- 🧠 Blog: thoughts on data, algorithms, and real-world applications

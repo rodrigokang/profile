@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "First Measurement of the Muon Neutrino Charged Current Quasielastic Cross Section, Phys. Rev. D, A.A. Aguilar-Arevalo et al., 2010.\n\n\n\n\n\nMonte Carlo Methods for Quantum Amplitude Estimation, 2023.\n\n\n\n\n\nData Science Across Domains: From Methods and Models to Business Applications, in progress."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-papers",
+    "href": "research.html#peer-reviewed-papers",
+    "title": "Research",
+    "section": "",
+    "text": "First Measurement of the Muon Neutrino Charged Current Quasielastic Cross Section, Phys. Rev. D, A.A. Aguilar-Arevalo et al., 2010."
+  },
+  {
+    "objectID": "research.html#conference-posters",
+    "href": "research.html#conference-posters",
+    "title": "Research",
+    "section": "",
+    "text": "Monte Carlo Methods for Quantum Amplitude Estimation, 2023."
+  },
+  {
+    "objectID": "research.html#books",
+    "href": "research.html#books",
+    "title": "Research",
+    "section": "",
+    "text": "Data Science Across Domains: From Methods and Models to Business Applications, in progress."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "I’m a Data Scientist at Cencosud S.A. and a PhD researcher passionate about Machine Learning, Optimization, and Quantitative Finance.\nThis website showcases my projects, academic research, and technical writing."
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Welcome",
+    "section": "📌 Highlights",
+    "text": "📌 Highlights\n\n💡 Machine Learning projects: from customer analytics to quantitative finance\n\n📊 Research interests: numerical methods, optimization, and applied statistics\n\n🧠 Blog: thoughts on data, algorithms, and real-world applications"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "I regularly write about Machine Learning, Optimization, and Quantitative Finance.\n\n\n\nBuilding a CRM with AI using RFM and Logistic Regression\nClustering-Based Portfolio Construction using PCA and K-Means\nMonte Carlo Simulation of Path Integrals in Quantum Mechanics"
+  },
+  {
+    "objectID": "blog.html#featured-articles",
+    "href": "blog.html#featured-articles",
+    "title": "Blog",
+    "section": "",
+    "text": "Building a CRM with AI using RFM and Logistic Regression\nClustering-Based Portfolio Construction using PCA and K-Means\nMonte Carlo Simulation of Path Integrals in Quantum Mechanics"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below you’ll find a selection of my public projects — more available on GitHub.\n\n\n\nAsset Allocation using PCA, Clustering, and Entropy Optimization\nCRM with AI: Churn Prediction and Recommendation Systems\nQuantum Path Integrals via Monte Carlo Simulation\nFraud Detection using Logistic Regression and Autoencoders"
+  },
+  {
+    "objectID": "projects.html#portfolio-projects",
+    "href": "projects.html#portfolio-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Asset Allocation using PCA, Clustering, and Entropy Optimization\nCRM with AI: Churn Prediction and Recommendation Systems\nQuantum Path Integrals via Monte Carlo Simulation\nFraud Detection using Logistic Regression and Autoencoders"
+  }
+]

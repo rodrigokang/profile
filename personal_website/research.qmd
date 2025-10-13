@@ -1,0 +1,14 @@
+---
+title: "Research"
+---
+
+# 🧪 Research and Publications
+
+## Peer-Reviewed Papers
+- **First Measurement of the Muon Neutrino Charged Current Quasielastic Cross Section**, *Phys. Rev. D*, A.A. Aguilar-Arevalo *et al.*, 2010.
+
+## Conference Posters
+- *Monte Carlo Methods for Quantum Amplitude Estimation*, 2023.
+
+## Books
+- *Data Science Across Domains: From Methods and Models to Business Applications*, in progress.

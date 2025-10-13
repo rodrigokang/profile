@@ -1,0 +1,13 @@
+---
+title: "Blog"
+---
+
+# ✍️ Blog and Technical Writing
+
+I regularly write about **Machine Learning**, **Optimization**, and **Quantitative Finance**.
+
+## Featured Articles
+
+- [Building a CRM with AI using RFM and Logistic Regression](https://towardsdatascience.com/...)
+- [Clustering-Based Portfolio Construction using PCA and K-Means](https://medium.com/...)
+- [Monte Carlo Simulation of Path Integrals in Quantum Mechanics](https://medium.com/...)

@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Rodrigo Kang"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Blog"
+        href: blog.qmd
+  page-footer:
+    left: "© 2025 Rodrigo Kang"
+    right: 
+      - icon: github
+        href: https://github.com/rodrigokang
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rodrigojuankang/
+      - icon: envelope
+        href: mailto:rodrigo.kang88@gmail.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
