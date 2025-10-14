@@ -3,28 +3,27 @@ project:
 
 website:
   title: "Rodrigo Kang"
+  description: "Physicist and Data Scientist — bridging theory and practice through AI, optimization, and computational modeling."
   navbar:
-    right:
-      - text: "Home"
-        href: index.qmd
-      - text: "Projects"
-        href: projects.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Blog"
-        href: blog.qmd
+     right:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
   page-footer:
     left: "© 2025 Rodrigo Kang"
-    right: 
-      - icon: github
-        href: https://github.com/rodrigokang
-      - icon: linkedin
-        href: https://www.linkedin.com/in/rodrigojuankang/
-      - icon: envelope
-        href: mailto:rodrigo.kang88@gmail.com
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
-    theme: cosmo
-    css: styles.scss
+    theme:
+      - cosmo
+      - styles.scss
     toc: true
+    toc-depth: 3
+    toc-smooth-scroll: true

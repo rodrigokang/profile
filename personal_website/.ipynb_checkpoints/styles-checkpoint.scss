@@ -1,19 +1,93 @@
-.profile-container {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
+/*-- scss:defaults --*/
 
-.profile-pic {
-  width: 180px;
-  height: 180px;
+/*-- scss:rules --*/
+
+/* --- About page layout --- */
+.about-image {
   border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 220px;
 }
 
-.profile-text {
-  max-width: 650px;
+.about-links .bi {
+  color: #003366;
+}
+
+.about-links a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Wider text */
+.about-contents {
+  max-width: 950px;
+  text-align: justify;
+}
+
+/* Space between image and text */
+.about {
+  column-gap: 3rem;
+}
+
+/* --- Navbar customization --- */
+.navbar {
+  background-color: #004080; /* azul profesional */
+  border-bottom: 2px solid #003060;
+}
+
+/* Navbar links and brand */
+.navbar a,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar a:hover {
+  color: #ffcc00 !important;
+}
+
+/* Right alignment for navbar items */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* --- Search icon customization --- */
+
+/* Target Algolia search icon specifically */
+.aa-SubmitIcon {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* Multiple specific selectors to ensure it works */
+.navbar .aa-SubmitIcon,
+.navbar-dark .aa-SubmitIcon,
+.quarto-navbar .aa-SubmitIcon,
+.navbar .search .aa-SubmitIcon {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* For the search button container */
+.navbar .search button,
+.navbar .aa-DetachedSearchButton {
+  color: #ffffff !important;
+}
+
+.navbar .search button .aa-SubmitIcon,
+.navbar .aa-DetachedSearchButton .aa-SubmitIcon {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* Hover states */
+.navbar .search:hover .aa-SubmitIcon,
+.navbar .aa-DetachedSearchButton:hover .aa-SubmitIcon {
+  color: #ffcc00 !important;
+  fill: #ffcc00 !important;
+}
+
+/* If the search uses a form */
+.aa-Form .aa-SubmitIcon {
+  color: #ffffff !important;
+  fill: #ffffff !important;
 }

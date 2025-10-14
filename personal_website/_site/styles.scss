@@ -1,7 +1,7 @@
 .profile-container {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  align-items: flex-start;
+  gap: 2rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -15,5 +15,20 @@
 }
 
 .profile-text {
-  max-width: 650px;
+  max-width: 700px;
+}
+
+.contact-links {
+  margin-top: 1rem;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.contact-links a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
 }

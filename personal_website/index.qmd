@@ -1,26 +1,35 @@
 ---
-title: "Welcome"
+title: "Rodrigo Kang"
+about:
+  template: trestles
+  image: images/profile.jpg
+  links:
+    - icon: envelope
+      text: Email
+      url: mailto:rodrigokang88@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/rodrigojuankang/
+    - icon: github
+      text: GitHub
+      url: https://github.com/rodrigokang
 ---
 
-<div class="profile-container">
+## About Me
 
-<img src="images/profile.jpg" class="profile-pic" alt="Rodrigo Kang">
+I am a physicist and data scientist with broad experience in machine learning, reinforcement learning, quantum optimal control theory, and computational modeling.  
 
-<div class="profile-text">
+Currently, I work as Lead Data Scientist at **YPF Tecnología S.A. (Y-TEC)**, where I apply advanced analytics, machine learning, and AI to address complex challenges in the energy sector.
 
-# 👋 Hi, I'm Rodrigo Kang
+Previously, I worked at **Cencosud S.A.**, one of the largest retail companies in Latin America. There, I developed customer segmentation models, churn prediction systems, and recommender engines, later serving as Supervisor of the Analytics and Data Science team in the CRM area.
 
-I'm a **Data Scientist** at Cencosud S.A. and a **PhD researcher** passionate about **Machine Learning**, **Optimization**, and **Quantitative Finance**.
+I also have experience in energy market modeling, having developed gas marketing strategies using discrete optimization and operations research techniques to support planning and decision-making under contractual constraints.
 
-This website showcases my **projects**, **academic research**, and **technical writing**.
+I hold a **Master’s degree in Physics** from the **National University of La Plata (UNLP)**, where I specialized in quantum optimal control theory and computational physics.  
+My research focused on algorithms based on shortcuts to adiabaticity for controlling quantum systems and solving NP-complex problems.
 
-</div>
-</div>
+My academic background in probability, statistics, and applied mathematics is complemented by continuous professional development through programs in data science, AI, and quantum computing.
 
----
+I am passionate about bridging theory and practice — transforming mathematical and physical principles into real-world, data-driven solutions.
 
-## 📌 Highlights
-
-- 💡 Machine Learning projects: from customer analytics to quantitative finance  
-- 📊 Research interests: numerical methods, optimization, and applied statistics  
-- 🧠 Blog: thoughts on data, algorithms, and real-world applications
+Outside of work, I have a deep interest in theology and enjoy playing bass guitar in my free time.

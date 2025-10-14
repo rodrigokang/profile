@@ -30,9 +30,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Rodrigo Kang",
     "section": "",
-    "text": "I’m a Data Scientist at Cencosud S.A. and a PhD researcher passionate about Machine Learning, Optimization, and Quantitative Finance.\nThis website showcases my projects, academic research, and technical writing."
+    "text": "I am a physicist and data scientist with broad experience in machine learning, reinforcement learning, quantum optimal control theory, and computational modeling.\nCurrently, I work as Lead Data Scientist at YPF Tecnología S.A. (Y-TEC), where I apply advanced analytics, machine learning, and AI to address complex challenges in the energy sector.\nPreviously, I worked at Cencosud S.A., one of the largest retail companies in Latin America. There, I developed customer segmentation models, churn prediction systems, and recommender engines, later serving as Supervisor of the Analytics and Data Science team in the CRM area.\nI also have experience in energy market modeling, having developed gas marketing strategies using discrete optimization and operations research techniques to support planning and decision-making under contractual constraints.\nI hold a Master’s degree in Physics from the National University of La Plata (UNLP), where I specialized in quantum optimal control theory and computational physics.\nMy research focused on algorithms based on shortcuts to adiabaticity for controlling quantum systems and solving NP-complex problems.\nMy academic background in probability, statistics, and applied mathematics is complemented by continuous professional development through programs in data science, AI, and quantum computing.\nI am passionate about bridging theory and practice — transforming mathematical and physical principles into real-world, data-driven solutions.\nOutside of work, I have a deep interest in theology and enjoy playing bass guitar in my free time."
   },
   {
     "objectID": "index.html#highlights",
@@ -68,5 +68,12 @@
     "title": "Projects",
     "section": "",
     "text": "Asset Allocation using PCA, Clustering, and Entropy Optimization\nCRM with AI: Churn Prediction and Recommendation Systems\nQuantum Path Integrals via Monte Carlo Simulation\nFraud Detection using Logistic Regression and Autoencoders"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Rodrigo Kang",
+    "section": "",
+    "text": "I am a physicist and data scientist with broad experience in machine learning, reinforcement learning, quantum optimal control theory, and computational modeling.\nCurrently, I work as Lead Data Scientist at YPF Tecnología S.A. (Y-TEC), where I apply advanced analytics, machine learning, and AI to address complex challenges in the energy sector.\nPreviously, I worked at Cencosud S.A., one of the largest retail companies in Latin America. There, I developed customer segmentation models, churn prediction systems, and recommender engines, later serving as Supervisor of the Analytics and Data Science team in the CRM area.\nI also have experience in energy market modeling, having developed gas marketing strategies using discrete optimization and operations research techniques to support planning and decision-making under contractual constraints.\nI hold a Master’s degree in Physics from the National University of La Plata (UNLP), where I specialized in quantum optimal control theory and computational physics.\nMy research focused on algorithms based on shortcuts to adiabaticity for controlling quantum systems and solving NP-complex problems.\nMy academic background in probability, statistics, and applied mathematics is complemented by continuous professional development through programs in data science, AI, and quantum computing.\nI am passionate about bridging theory and practice — transforming mathematical and physical principles into real-world, data-driven solutions.\nOutside of work, I have a deep interest in theology and enjoy playing bass guitar in my free time."
   }
 ]

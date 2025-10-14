@@ -431,6 +431,23 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen192
+\Gin@req@width=\dimen193
+)
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounico
 de.tex)
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -689,7 +706,7 @@ LaTeX Info: Redefining \today on input line 736.
 \dt@b=\toks34
 )
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on
- input line 168.
+ input line 142.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/sourcesanspro\t1sourc
 esanspro-tlf.fd
@@ -697,38 +714,38 @@ File: T1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for T1/Sour
 ceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 168.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 142.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 168.
- (cv.aux)
+(Font)              scaled to size 10.0pt on input line 142.
+
+No file cv.aux.
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 168.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 142.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-68.
-
+42.
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    ... okay on input line 142.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -738,22 +755,22 @@ LaTeX Font Info:    ... okay on input line 168.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=528.93675pt
+* \textheight=709.61174pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=0.0pt
-* \footskip=28.45274pt
+* \footskip=22.76228pt
 * \marginparwidth=65.0pt
 * \marginparsep=11.0pt
-* \columnsep=4.26773pt
+* \columnsep=14.22636pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -769,100 +786,166 @@ LaTeX Font Info:    ... okay on input line 168.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count357
-\scratchdimen=\dimen192
+\scratchdimen=\dimen194
 \scratchbox=\box65
 \nofMPsegments=\count358
 \nofMParguments=\count359
 \everyMPshowfont=\toks35
 \MPscratchCnt=\count360
-\MPscratchDim=\dimen193
+\MPscratchDim=\dimen195
 \MPnumerator=\count361
 \makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks36
 )
-Package hyperref Info: Link coloring ON on input line 168.
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 142.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.d
 ef
 File: fc-english.def 2016/01/12
 )
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 171.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 30.0pt on input line 171.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 176.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 148.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 176.
+(Font)              scaled to size 22.0pt on input line 148.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 148.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 22.0pt on input line 148.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 150.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 150.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 154.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 154.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 176.
+nput line 155.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
 somefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 178.
+nput line 157.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
 somefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 180.
+ input line 161.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
 somebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 180.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 191.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 191.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 191.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 191.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 201.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 201.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 201.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 201.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 273.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 273.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-73.
+n input line 161.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+64.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-73.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+64.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-273.
+164.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-273.
+164.
 
 (C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 273.
+(Font)              <10> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 273.
+(Font)              <7> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 273.
+(Font)              <5> on input line 164.
+<profile.jpg, id=6, 401.5pt x 401.5pt>
+File: profile.jpg Graphic file (type jpg)
+<use profile.jpg>
+Package pdftex.def Info: profile.jpg  used on input line 168.
+(pdftex.def)             Requested size: 79.6678pt x 79.66756pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 185.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 185.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 185.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 185.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 189.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 189.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 193.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 193.
+
+Overfull \hbox (4.94948pt too wide) in paragraph at lines 234--235
+[][] \T1/SourceSansPro-TLF/regular/n/9 De-signed com-mer-cial strate-gies and o
+p-ti-miza-tion al-go-rithms for nat-u-ral gas mar-kets us-ing Python,
+ []
+
+
+Overfull \hbox (3.5218pt too wide) in paragraph at lines 292--294
+\T1/SourceSansPro-TLF/regular/n/9 ture en-gi-neer-ing, and model in-ter-pretabi
+l-ity, con-nect-ing data-driven in-sights to strate-gic decision-
+ []
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
+ input line 331.
+
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
+somebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 331.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 331.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 9.0pt on input line 331.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 332.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 332.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 336.
+
+(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
+somefree0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 341.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 357.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 357.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 357.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 357.
+
 
 [1
 
@@ -872,38 +955,9 @@ drigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}
 5free2.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/font
 awesome5/fa5free1.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc
 /dvips/fontawesome5/fa5brands0.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiK
-TeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [2]
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 470.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
- input line 475.
-
-(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
-somebrands1.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
-available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 475.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 480.
-
-(C:\Users\Rodrigo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawe
-somefree0.fd)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 496.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 496.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 496.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 496.
-
-
-[3{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/
-fa5brands1.enc}{C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
-fontawesome5/fa5free0.enc}]
+TeX/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/Rodrigo/AppData/Local
+/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/Rodrigo/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./profile.jpg>] 
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (cv.aux)
@@ -911,15 +965,22 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 408.
+
  ) 
 Here is how much of TeX's memory you used:
- 16886 strings out of 468129
- 291944 string characters out of 5429643
- 723339 words of memory out of 5000000
- 45227 multiletter control sequences out of 15000+600000
- 734780 words of font info for 80 fonts, out of 8000000 for 9000
+ 17252 strings out of 468129
+ 298486 string characters out of 5429643
+ 732462 words of memory out of 5000000
+ 45576 multiletter control sequences out of 15000+600000
+ 762310 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,1052b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1052b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesom
 e5/FontAwesome5Brands-Regular.pfb><C:/Users/Rodrigo/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/Rodri
@@ -930,9 +991,9 @@ iKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb><C:/Users/Rodrigo/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regul
 ar.pfb><C:/Users/Rodrigo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
 sy9.pfb>
-Output written on cv.pdf (3 pages, 265492 bytes).
+Output written on cv.pdf (1 page, 326995 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
