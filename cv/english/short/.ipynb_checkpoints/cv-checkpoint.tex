@@ -1,0 +1,408 @@
+\documentclass[10pt, letterpaper]{article}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Paquetes
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\usepackage[
+    ignoreheadfoot,
+    top=1.5cm,
+    bottom=1.5cm,
+    left=1.5cm,
+    right=1.5cm,
+    footskip=0.8cm
+]{geometry}
+\usepackage[explicit]{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Rodrigo Kang},
+    pdfauthor={Rodrigo Kang},
+    pdfcreator={Rodrigo Kang},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+\usepackage{graphicx}
+
+\setlength{\parskip}{0.15cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Fuentes y Codificación
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+\usepackage[default, type1]{sourcesanspro}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Configuración de Página
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.5cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Configuración del Pie de Página
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\usepackage{datetime}
+\newdateformat{monthyeardate}{\shortmonthname[\THEMONTH] \THEYEAR}
+
+\makeatletter
+\def\ps@customFooterStyle{%
+    \def\@oddfoot{%
+        \small\color{gray}%
+        \raisebox{-0.1cm}[0pt][0pt]{%
+            \makebox[\textwidth]{%
+                \makebox[0pt][l]{\uppercase{\monthyeardate\today}}%
+                \makebox[\textwidth]{\hfill\uppercase{RODRIGO KANG \, $\cdot$ \, RÉSUMÉ}\hfill}%
+                \makebox[0pt][r]{\uppercase{\thepage}}%
+            }%
+        }%
+    }%
+    \def\@evenfoot{\@oddfoot}%
+    \def\@oddhead{}%
+    \def\@evenhead{}%
+}
+\makeatother
+
+\pagestyle{customFooterStyle}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Estilo de Sección
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\titleformat{\section}{
+    \needspace{3\baselineskip}
+    \large\color{primaryColor}
+}{
+}{
+}{
+    \textbf{#1}
+}[]
+
+\titlespacing{\section}{-1pt}{0.2cm}{0.15cm}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Entornos Personalizados
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.08cm,
+        parsep=0.08cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0cm}{0cm}
+}{
+    \end{adjustwidth}
+}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Configuración de Hipervínculos
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\let\hrefWithoutArrow\href
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+% Documento
+% <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+\begin{document}
+
+% Header with name, profession, contact, and photo
+\noindent
+\begin{minipage}[c]{0.65\textwidth}
+    \raggedright
+    \fontsize{22pt}{22pt}\selectfont\textbf{Rodrigo Kang}
+
+    {\normalsize \textbf{\textcolor{primaryColor}{Physicist \,|\, Data Scientist}}}
+    
+    \vspace{0.25cm}
+    
+    \footnotesize
+    \mbox{{\faMapMarker*}\hspace*{0.13cm}Buenos Aires, Argentina}%
+    \kern 0.2cm | \kern 0.2cm%
+    \mbox{\hrefWithoutArrow{mailto:rodrigokang88@gmail.com}{{\faEnvelope[regular]}\hspace*{0.13cm}rodrigokang88@gmail.com}}%
+    
+    \vspace{0.15cm}
+    
+    \mbox{\hrefWithoutArrow{http://www.linkedin.com/in/rodrigojuankang}{{\faLinkedinIn}\hspace*{0.13cm}rodrigojuankang}}%
+    \kern 0.2cm | \kern 0.2cm%
+    \mbox{\hrefWithoutArrow{https://github.com/rodrigokang/profile}{{\faGithub}\hspace*{0.13cm}rodrigokang}}%
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.3\textwidth}
+    \centering
+    \includegraphics[width=2.8cm, keepaspectratio]{profile.jpg}
+\end{minipage}
+
+% Separator line
+\vspace{0.2cm}
+\noindent\color{primaryColor}\rule{\textwidth}{0.8pt}
+\vspace{0.3cm}
+
+% Two-column content
+\vspace{-0.8cm} 
+\setcolumnwidth{0.68\textwidth, 0.3\textwidth}
+\begin{paracol}{2}
+
+% Main column (wider)
+\begin{leftcolumn}
+
+% Professional Experience
+\section{Work Experience}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{Lead Data Scientist}} \hfill {\footnotesize \textcolor{gray}{Mar 2025 - Present}} \\ 
+\textit{\textcolor{gray}{YPF Tecnología S.A. (Y-TEC)}} 
+
+\vspace{-0.05cm}
+
+{\small \textcolor{black}{
+Lead R\&D solutions integrating ML, RL, optimization, and Quantum Computing for O\&G. Applied AI across predictive modeling, production optimization, and computer vision.
+}}
+\end{onecolentry}
+
+\vspace{0.05cm}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{CRM Supervisor}} \hfill {\footnotesize \textcolor{gray}{Jan 2025 - Mar 2025}} \\ 
+\textit{\textcolor{gray}{Cencosud S.A.}} 
+
+\vspace{-0.05cm}
+
+{\small \textcolor{black}{
+Managed CRM team to enhance segmentation, churn prediction, and recommendation systems. Oversaw ML model development and deployment using Python, SQL, and AWS.
+}}
+\end{onecolentry}
+
+\vspace{0.05cm}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{Data Scientist}} \hfill {\footnotesize \textcolor{gray}{Jul 2023 - Dec 2024}} \\ 
+\textit{\textcolor{gray}{Cencosud S.A.}} 
+
+\vspace{-0.05cm}
+
+{\small \textcolor{black}{
+Built predictive models, recommendation systems, and churn prediction using Python, SQL, and AWS SageMaker to support retail strategy.
+}}
+\end{onecolentry}
+
+\vspace{0.05cm}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{Gas Trading \& OR Analyst}} \hfill {\footnotesize \textcolor{gray}{Apr 2020 - Jul 2023}} \\ 
+\textit{\textcolor{gray}{ECS S.A. - ENGIE GROUP}} 
+
+\vspace{-0.05cm}
+
+{\small \textcolor{black}{
+Designed commercial strategies and optimization algorithms for natural gas markets using Python, LP, and graph theory.
+}}
+\end{onecolentry}
+
+\vspace{0.05cm}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{Programming \& Balancing Analyst}} \hfill {\footnotesize \textcolor{gray}{Dec 2017 - Mar 2020}} \\ 
+\textit{\textcolor{gray}{TGN S.A. - TECHINT GROUP}} 
+
+\vspace{-0.05cm}
+
+{\small \textcolor{black}{
+Analyzed daily pipeline data, prepared balance sheets, and controlled operational imbalances ensuring regulatory compliance.
+}}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+% Education
+\section{Education}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{M.Sc. in Physics}} \hfill {\footnotesize \textcolor{gray}{Dec 2021}} \\ 
+\textit{\textcolor{gray}{Universidad Nacional de La Plata}}
+
+\vspace{0.05cm}
+
+{\small \textcolor{black}{
+Graduated with honors (GPA: 8.40/10). Specialized in Quantum Optimal Control Theory.}
+}
+\end{onecolentry}
+
+\vspace{0.05cm}
+
+\begin{onecolentry}
+\textbf{\textcolor{black}{Doctor of Philosophy - PhD in Physics (not completed)}} \hfill {\footnotesize \textcolor{gray}{Dec 2024}} \\ 
+\textit{\textcolor{gray}{Universidad Nacional de La Plata}}
+
+\vspace{0.05cm}
+
+{\small \textcolor{black}{
+Research in hadronic physics, focused on pion production mechanisms via neutrino scattering.}
+}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+% Projects
+\section{Projects}
+
+% Data Science
+\begin{onecolentry}
+\textbf{\textcolor{black}{Data Science Portfolio}} \hfill {\footnotesize \textcolor{gray}{Ongoing}} \\
+\textit{\textcolor{gray}{Data analysis, predictive modeling, ML, DL, RL \& AI projects}}
+
+\vspace{0.1cm}
+
+{\small \textcolor{black}{
+A collection of projects exploring customer analytics, financial modeling, churn prediction, feature engineering, and model interpretability, connecting data-driven insights to strategic decision-making.}
+}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+% Quantum Computing
+\begin{onecolentry}
+\textbf{\textcolor{black}{Quantum Computing Portfolio}} \hfill {\footnotesize \textcolor{gray}{Ongoing}} \\
+\textit{\textcolor{gray}{Quantum algorithms, simulations \& optimization projects}}
+
+\vspace{0.1cm}
+
+{\small \textcolor{black}{Projects focused on applying quantum algorithms to solve complex problems, simulate quantum systems, and provide insights at the intersection of physics, mathematics, and computer science.}
+}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+\end{leftcolumn}
+
+% Side column (narrower)
+\begin{rightcolumn}
+
+% Profile Summary (no title)
+\begin{onecolentry}
+\raggedright
+\small
+\textcolor{black}{Physicist and Data Scientist with extensive experience in machine learning, reinforcement learning, quantum optimal control theory, and computational modeling. Strong background in probability, statistics, linear algebra, advanced mathematics, quantum computing, and computational physics. Skilled in leading scalable projects and supporting data-driven decision-making through innovative, consistent, and effective solutions that bridge scientific insight and applied AI.}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+% Skills - Programming Languages
+\section{Technical Skills}
+
+\begin{onecolentry}
+\raggedright
+\small
+\faPython \; \textcolor{black}{\textbf{Python}} \\
+\textit{\textcolor{gray}{NumPy, SciPy, Pandas, Scikit-learn, PyTorch, TensorFlow}}
+
+\vspace{0.1cm}
+
+\faDatabase \; \textcolor{black}{\textbf{SQL}} \\
+\textit{\textcolor{gray}{PostgreSQL, AWS Redshift}}
+
+\vspace{0.1cm}
+
+\faAws \, \faMicrosoft \; \textcolor{black}{\textbf{AWS \& Azure}} \\
+\textit{\textcolor{gray}{SageMaker, Redshift, Azure ML, Azure AI}}
+
+\vspace{0.1cm}
+
+\faLinux \; \textcolor{black}{\textbf{Linux}} \\
+\textit{\textcolor{gray}{Bash scripting}}
+
+\vspace{0.1cm}
+
+\faGithub \; \textcolor{black}{\textbf{Git}} \\
+\textit{\textcolor{gray}{Version Control}}
+
+\vspace{0.1cm}
+
+\textbf{\textcolor{black}{Other}} \\
+\textit{\textcolor{gray}{\LaTeX, R, C++}}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+% Languages
+\section{Languages}
+
+\begin{onecolentry}
+\raggedright
+\small
+\textbf{\textcolor{black}{Spanish}} \\
+\textit{\textcolor{gray}{Native Proficiency}}
+
+\vspace{0.1cm}
+
+\textbf{\textcolor{black}{English}} \\
+\textit{\textcolor{gray}{Professional Proficiency (C1)}}
+\end{onecolentry}
+
+\vspace{0.2cm}
+
+% Licenses & Certifications
+\section{Certifications}
+
+\begin{onecolentry}
+\raggedright
+\small
+\textbf{\textcolor{black}{Azure AI Fundamentals}} \\
+\textit{\textcolor{gray}{Microsoft, Feb 2025}}
+
+\vspace{0.1cm}
+
+\textbf{\textcolor{black}{AI Masterclass}} \\
+\textit{\textcolor{gray}{Udemy, Feb 2025}}
+
+\vspace{0.1cm}
+
+\textbf{\textcolor{black}{Quantitative Finance}} \\
+\textit{\textcolor{gray}{UCEMAx, Nov 2023}}
+
+\vspace{0.1cm}
+
+\textbf{\textcolor{black}{Probability and Statistics}} \\
+\textit{\textcolor{gray}{UNLP, Dec 2021}}
+\end{onecolentry}
+
+\end{rightcolumn}
+
+\end{paracol}
+
+\end{document}
